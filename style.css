@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #222831;
+    border-radius: 1.5rem;
+    width: 88%;
+    max-width: 400px;
+    height: auto;
+    padding: 35px 25px;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+.result{
+    color: orange;
+    background-color: #262f38;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-weight: 400;
+}
+.star{
+    background-color: #262f38;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+    margin: 15px auto;
+    font-size: 28px;
+
+}
+.text{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.rating-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+.rating-btn{
+    background-color: #262f38;
+    font-weight: 700;
+    color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    color: white;
+    border-radius: 2rem;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rating-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.active{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
